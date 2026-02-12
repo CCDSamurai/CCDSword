@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Karambolo.Extensions.Logging.File" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.2" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MvCamCtrl.Net">
+      <HintPath>..\..\..\Program Files (x86)\MVS\Development\DotNet\win64\MvCamCtrl.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
